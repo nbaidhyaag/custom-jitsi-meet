@@ -125,7 +125,10 @@ export default {
     },
 
     customInputContainer: {
-        width: '75%'
+        width: '75%',
+    },
+     customInput: {
+        color: '#000000'
     },
 
     messageBubble: {

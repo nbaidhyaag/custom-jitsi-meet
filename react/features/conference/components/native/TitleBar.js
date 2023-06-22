@@ -89,14 +89,9 @@ const TitleBar = (props: Props) => {
                 {/* eslint-disable-next-line react/jsx-no-bind */}
                 <Labels createOnPress = { props._createOnPress } />
             </View>
-            <View style = { styles.titleBarButtonContainer }>
-                <ToggleCameraButton styles = { styles.titleBarButton } />
-            </View>
+
             <View style = { styles.titleBarButtonContainer }>
                 <AudioDeviceToggleButton styles = { styles.titleBarButton } />
-            </View>
-            <View style = { styles.titleBarButtonContainer }>
-                <ParticipantsPaneButton styles = { styles.titleBarButton } />
             </View>
         </View>
     );

@@ -111,7 +111,6 @@ class OngoingNotification {
         NotificationCompat.Action audioAction = createAction(context, toggleAudioAction, toggleAudioTitle);
 
         builder.addAction(hangupAction);
-        builder.addAction(audioAction);
 
         return builder.build();
     }
